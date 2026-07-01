@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 500">
+   <defs>
+      <linearGradient id="gradient-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+         <stop offset="0%" stop-color="#36ffdf" />
+         <stop offset="70%" stop-color="#00d2b4" />
+         <stop offset="100%" stop-color="#00a38b" />
+      </linearGradient>
+
+      <linearGradient id="gradient-main" x1="0%" y1="0%" x2="100%" y2="100%">
+         <stop offset="0%" stop-color="#ffffff" />
+         <stop offset="60%" stop-color="#ececec" />
+         <stop offset="100%" stop-color="#c5c7cb" />
+      </linearGradient>
+
+      <linearGradient id="gradient-light" x1="0%" y1="0%" x2="100%" y2="0%">
+         <stop offset="0%" stop-color="#eaeaea" />
+         <stop offset="30%" stop-color="#ffffff" />
+         <stop offset="85%" stop-color="#d6d8db" />
+         <stop offset="100%" stop-color="#a8aab0" />
+      </linearGradient>
+   </defs>
+
+   <g class="icon-paths">
+      <path d="m106 75 102 2c-2 21-7 34-18 37-18 4-38 12-40 38v40h-44Z" fill="url(#gradient-accent)" />
+      <path d="M106 348h44v40c2 26 22 34 40 38 11 3 16 16 16 37H106Z" fill="url(#gradient-accent)" />
+      <path d="M252 77h108c65 0 85 43 85 108v170c0 65-20 108-85 108H248l10-42h94c43 0 51-26 51-66V185c0-40-8-66-51-66h-97Z" fill="url(#gradient-main)" />
+      <path d="M565 75h43v390h-43Z" fill="url(#gradient-light)" />
+      <path d="M608 235h187c21 0 29 15 20 40H608Z" fill="url(#gradient-main)" />
+      <path d="M842 74h54v112h-44c0-36-8-76-10-112" fill="url(#gradient-accent)" />
+      <path d="m842 254 48 3-2 17-46-3Z" fill="url(#gradient-accent)" />
+      <path d="M840 465h55V345h-30c-15 35-23 75-25 120" fill="url(#gradient-accent)" />
+   </g>
+</svg>

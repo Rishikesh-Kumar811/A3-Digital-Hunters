@@ -1,4 +1,4 @@
-﻿@property --neon-cyan {
+@property --neon-cyan {
    syntax: '<color>';
    inherits: true;
    initial-value: #00f3db;
@@ -791,9 +791,9 @@ a {
          }
 
          &:nth-child(5) .feature-icon-wrapper svg {
-            width: clamp(26px, 3.6cqi, 61px);
+            width: clamp(24px, 3.6cqi, 59px);
 
-            transform: translateX(-3px);
+            transform: translate(-3px, 1px);
          }
 
          & .feature-text {
@@ -1887,7 +1887,7 @@ a {
       }
    }
 
-   @media (max-width: 1440px) {
+   @media (width <= 1440px) {
       & .workflow-steps {
          justify-content: center;
       }
@@ -1906,7 +1906,7 @@ a {
       }
    }
 
-   @media (max-width: 1200px) {
+   @media (width <= 1200px) {
       & .workflow-steps .step-item {
          flex: 0 0 calc(50% - var(--steps-gap) / 2);
       }
@@ -1918,20 +1918,6 @@ a {
 
       & .workflow-steps .step-item:nth-child(2)::before,
       & .workflow-steps .step-item:nth-child(4)::before,
-      & .workflow-steps .step-item:nth-child(6)::before {
-         display: none;
-      }
-   }
-
-   @media (max-width: 640px) {
-      & .workflow-steps .step-item {
-         flex: 0 0 100%;
-      }
-
-      & .workflow-steps .step-item::before,
-      & .workflow-steps .step-item:nth-child(2)::before,
-      & .workflow-steps .step-item:nth-child(4)::before,
-      & .workflow-steps .step-item:nth-child(5)::before,
       & .workflow-steps .step-item:nth-child(6)::before {
          display: none;
       }
@@ -2309,7 +2295,6 @@ footer {
 @media (width <= 1024px) {
    #cta .cta-card {
       flex-direction: column;
-
       align-items: center;
    }
 
@@ -2317,9 +2302,7 @@ footer {
    #cta .cta-card .cta-center,
    #cta .cta-card .cta-right {
       width: 100%;
-
       text-align: center;
-
       padding: 20px 0;
    }
 
@@ -2330,9 +2313,7 @@ footer {
    #cta .cta-card .cta-right {
       padding-left: 0;
    }
-}
 
-@media (width <= 1024px) {
    .main-header {
       padding-left: 2%;
       padding-right: 0;
@@ -2496,8 +2477,29 @@ footer {
    }
 
    #hero .hero-right .feature-item .feature-icon-wrapper {
-      width: clamp(45px, 9vw, 65px);
-      height: clamp(45px, 9vw, 65px);
+      width: clamp(55px, 6vw, 75px);
+      height: clamp(55px, 6vw, 75px);
+   }
+
+   #hero .hero-right .feature-item:nth-child(1) .feature-icon-wrapper svg {
+      width: 75% !important;
+      max-width: 75% !important;
+      height: auto !important;
+      transform: none !important;
+   }
+
+   #hero .hero-right .feature-item:nth-child(3) .feature-icon-wrapper svg {
+      width: 74% !important;
+      max-width: 74% !important;
+      height: auto !important;
+      transform: none !important;
+   }
+
+   #hero .hero-right .feature-item:nth-child(5) .feature-icon-wrapper svg {
+      width: 75% !important;
+      max-width: 75% !important;
+      height: auto !important;
+      transform: translate(-2px, 1px) !important;
    }
 
    #hero .hero-right .feature-item .feature-text .feature-title {
@@ -2712,15 +2714,24 @@ footer {
    }
 
    #hero .hero-right .feature-item:nth-child(1) .feature-icon-wrapper svg {
-      width: clamp(33px, 5.5vw, 43px);
+      width: 75% !important;
+      max-width: 75% !important;
+      height: auto !important;
+      transform: none !important;
    }
 
    #hero .hero-right .feature-item:nth-child(3) .feature-icon-wrapper svg {
-      transform: scale(0.75);
+      width: 74% !important;
+      max-width: 74% !important;
+      height: auto !important;
+      transform: none !important;
    }
 
    #hero .hero-right .feature-item:nth-child(5) .feature-icon-wrapper svg {
-      width: clamp(34px, 5.7vw, 44px);
+      width: 75% !important;
+      max-width: 75% !important;
+      height: auto !important;
+      transform: translate(-2px, 1px) !important;
    }
 
    #hero .hero-right .feature-item .feature-text .feature-title {
@@ -2921,6 +2932,14 @@ footer {
 
       max-width: 320px;
    }
+
+   #workflow .workflow-steps .step-item::before,
+   #workflow .workflow-steps .step-item:nth-child(2)::before,
+   #workflow .workflow-steps .step-item:nth-child(4)::before,
+   #workflow .workflow-steps .step-item:nth-child(5)::before,
+   #workflow .workflow-steps .step-item:nth-child(6)::before {
+      display: none;
+   }
 }
 
 @media (width <= 480px) {
@@ -2932,6 +2951,17 @@ footer {
 
    #hero h1 {
       font-size: 3rem;
+   }
+
+   #hero .hero-right {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+   }
+
+   #hero .hero-right .feature-item {
+      flex: 0 1 calc(50% - 15px);
+      width: calc(50% - 15px);
    }
 
    #cta .cta-card {
@@ -3128,13 +3158,13 @@ footer {
    width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (width >= 640px) {
    .master-container {
       padding: 0 2rem;
    }
 }
 
-@media (min-width: 1025px) {
+@media (width >= 1025px) {
    .master-container {
       max-width: 1280px;
       padding: 0 3rem;
@@ -3172,13 +3202,13 @@ footer {
    }
 }
 
-@media (min-width: 1280px) {
+@media (width >= 1280px) {
    .master-container {
       max-width: 1440px;
    }
 }
 
-@media (min-width: 1536px) {
+@media (width >= 1536px) {
    #stats {
       margin-block-start: -177px !important;
       width: 100% !important;
@@ -3193,7 +3223,7 @@ footer {
    }
 }
 
-@media (min-width: 1920px) {
+@media (width >= 1920px) {
    html {
       font-size: 18px;
    }
@@ -3205,7 +3235,7 @@ footer {
    }
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (1025px <= width <= 1200px) {
    #cta .cta-card .cta-center {
       transform: translateX(-20px);
    }
@@ -3215,21 +3245,8 @@ footer {
    }
 }
 
-@media (min-width: 690px) and (max-width: 780px) {
+@media (690px <= width <= 780px) {
    #cta .cta-card .cta-center .logo .oxanium-logo {
       font-size: clamp(14px, 2.5vw, 17px); /* Slightly increased size for this specific range */
-   }
-}
-
-@media (width <= 480px) {
-   #hero .hero-right {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-   }
-
-   #hero .hero-right .feature-item {
-      flex: 0 1 calc(50% - 15px);
-      width: calc(50% - 15px);
    }
 }

@@ -98,7 +98,6 @@
 
 @layer base {
 
-
    * {
       margin: 0;
 
@@ -143,7 +142,10 @@
 
    img {
       image-rendering: -webkit-optimize-contrast !important;
+      image-rendering: crisp-edges !important;
+      image-rendering: smooth !important;
       image-rendering: auto !important;
+      filter: contrast(1.02) saturate(1.02) !important;
       translate: 0 0 1px !important;
       overflow-clip-margin: unset !important;
       backface-visibility: hidden !important;
@@ -679,8 +681,6 @@
 
             height: auto;
 
-
-
             opacity: 0.8;
 
             filter: drop-shadow(0 0 15px rgba(0, 243, 219, 0.4));
@@ -705,7 +705,6 @@
             z-index: 2;
 
             filter: drop-shadow(0 0 35px rgba(0, 243, 219, 0.45)) drop-shadow(0 20px 40px rgba(0, 0, 0, 0.8)) contrast(1.1) brightness(1.05);
-
 
          }
       }
@@ -1403,7 +1402,7 @@
 
                   inset: 0;
 
-                  background: linear-gradient(to bottom, transparent 60%, rgba(20, 25, 33, 0.8));
+                  background: transparent;
 
                   pointer-events: none;
                }
@@ -1414,15 +1413,15 @@
                   object-fit: cover;
                   display: block;
                   overflow-clip-margin: unset;
-                  transform: translate3d(0, 0, 1px);
 
+                  image-rendering: crisp-edges;
                   image-rendering: -webkit-optimize-contrast;
-                  image-rendering: auto;
+                  filter: contrast(1.05) saturate(1.05);
 
                   transition:
                      scale 0.6s cubic-bezier(0.25, 1, 0.5, 1),
                      transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-                  backface-visibility: hidden;
+
                }
             }
 
@@ -1665,8 +1664,6 @@
 
          gap: var(--steps-gap);
 
-
-
          & .step-item {
             flex: 1 1 0;
             width: 0;
@@ -1797,10 +1794,9 @@
                }
             }
 
-            /* Scale specific SVGs for optical balance so they appear the same size as the rest */
             &:nth-child(1) .step-icon svg,
             &:nth-child(4) .step-icon svg {
-               transform: scale(1.4);
+               transform: scale(1.54);
             }
 
             & .step-content {
@@ -2068,7 +2064,7 @@
                will-change: filter;
 
                & svg {
-                  width: clamp(85px, 7.5vw, 130px);
+                  width: clamp(82px, 7vw, 120px);
                   height: auto;
                   flex-shrink: 0;
                   display: block;
@@ -2082,14 +2078,14 @@
                   font-optical-sizing: auto;
                   font-weight: 500;
                   font-style: normal;
-                  font-size: clamp(15.2px, 1.55vw, 22.5px);
+                  font-size: clamp(14.5px, 1.45vw, 20px);
                   color: var(--logo-text-color);
                   letter-spacing: 0.08em;
                   line-height: 1;
                   text-transform: uppercase;
                   white-space: nowrap;
                   text-box: trim-both cap alphabetic;
-                  margin-top: -0.02em;
+                  margin-top: -0.03em;
                   will-change: color;
                   transition: color 0.4s cubic-bezier(0.25, 1, 0.5, 1);
                }
@@ -2098,7 +2094,7 @@
             & .cta-sub {
                text-align: left;
 
-               font-size: clamp(13px, 1.6cqi, 20px);
+               font-size: clamp(12.5px, 1.5cqi, 18px);
 
                color: var(--text-muted);
 
@@ -3182,15 +3178,23 @@
       }
    }
 
-   @media (690px <=width <=780px) {
+   @media (width <=768px) {
       #cta .cta-card .cta-center .logo .oxanium-logo {
-         font-size: clamp(14px, 2.5vw, 17px);
+         font-size: clamp(14.5px, 2.5vw, 20px);
+      }
+
+      #cta .cta-card .cta-center .logo svg:not(.logo-text-svg) {
+         width: clamp(70px, 14vw, 100px);
       }
    }
 
+   @media (width <=480px) {
+      #cta .cta-card .cta-center .logo svg:not(.logo-text-svg) {
+         width: clamp(76px, 16vw, 90px);
+      }
+   }
 }
 
-/* MODERN 2026 MDN 3D FLOAT & SPIN ANIMATIONS */
 @layer components {
    @media (prefers-reduced-motion: no-preference) {
       .astronaut {
@@ -3237,11 +3241,8 @@
    }
 }
 
-
-/* MODERN 2026 MDN MOBILE HOVER FIX */
 @layer components {
 
-   /* Remove hover effects on project cards under 768px per user request and MDN touch best practices */
    @media (width <=768px) {
       #projects .project-card:hover {
          translate: 0 0 !important;

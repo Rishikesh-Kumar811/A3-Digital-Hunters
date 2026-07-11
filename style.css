@@ -1665,7 +1665,7 @@
 
          gap: var(--steps-gap);
 
-         
+
 
          & .step-item {
             flex: 1 1 0;
@@ -1739,7 +1739,7 @@
                pointer-events: none;
             }
 
-            &:nth-child(2)::before {
+            &:first-child::before {
                display: none;
             }
 
@@ -1797,20 +1797,10 @@
                }
             }
 
-            &:nth-child(2) .step-icon svg {
-               transform: scale(1.7);
-            }
-
-            &:nth-child(3) .step-icon svg {
-               transform: scale(1.1);
-            }
-
+            /* Scale specific SVGs for optical balance so they appear the same size as the rest */
+            &:nth-child(1) .step-icon svg,
             &:nth-child(4) .step-icon svg {
-               transform: scale(1.1);
-            }
-
-            &:nth-child(5) .step-icon svg {
-               transform: scale(1.6);
+               transform: scale(1.4);
             }
 
             & .step-content {
@@ -1899,8 +1889,7 @@
             display: block;
          }
 
-         & .workflow-steps .step-item:nth-child(2)::before,
-         & .workflow-steps .step-item:nth-child(5)::before {
+         & .workflow-steps .step-item:nth-child(4)::before {
             display: none;
          }
       }
@@ -1911,13 +1900,12 @@
          }
 
          & .workflow-steps .step-item::before,
-         & .workflow-steps .step-item:nth-child(5)::before {
+         & .workflow-steps .step-item:nth-child(4)::before {
             display: block;
          }
 
-         & .workflow-steps .step-item:nth-child(2)::before,
-         & .workflow-steps .step-item:nth-child(4)::before,
-         & .workflow-steps .step-item:nth-child(6)::before {
+         & .workflow-steps .step-item:nth-child(3)::before,
+         & .workflow-steps .step-item:nth-child(5)::before {
             display: none;
          }
       }
@@ -2882,12 +2870,8 @@
          max-width: 320px;
       }
 
-      #workflow .workflow-steps .step-item::before,
-      #workflow .workflow-steps .step-item:nth-child(2)::before,
-      #workflow .workflow-steps .step-item:nth-child(4)::before,
-      #workflow .workflow-steps .step-item:nth-child(5)::before,
-      #workflow .workflow-steps .step-item:nth-child(6)::before {
-         display: none;
+      #workflow .workflow-steps .step-item::before {
+         display: none !important;
       }
    }
 

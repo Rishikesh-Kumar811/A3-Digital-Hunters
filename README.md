@@ -1,52 +1,40 @@
 <div align="center">
   
-  <h1>🎯 A3 Digital Hunters</h1>
-  <p><strong>A Next-Generation, Lightning-Fast Digital Agency Landing Page</strong></p>
+  <h1>✨ A3 Digital Hunters</h1>
+  <p><strong>A Modern, Fully Responsive Frontend Experience</strong></p>
 
+  <!-- Sleek, Minimalist Badges -->
   <p>
-    <img src="https://img.shields.io/badge/Performance-Blazing_Fast-ef4444?style=for-the-badge&logo=speedtest" alt="Performance" />
-    <img src="https://img.shields.io/badge/Tech_Stack-HTML5%20%7C%20CSS3-10b981?style=for-the-badge&logo=html5" alt="Tech Stack" />
-    <img src="https://img.shields.io/badge/Design-Fluid_Typography-8b5cf6?style=for-the-badge&logo=figma" alt="UI/UX" />
-    <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status" />
+    <a href="https://a3-digital-hunters.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
+    </a>
+    <img src="https://img.shields.io/badge/HTML5-20232A?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-20232A?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
+    <img src="https://img.shields.io/badge/Responsive-20232A?style=flat-square&logo=mobx&logoColor=FF9955" alt="Responsive" />
   </p>
+
+  <br />
+
+  <a href="https://a3-digital-hunters.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_CLICK_HERE_TO_VIEW_LIVE_WEBSITE-0052FF?style=for-the-badge&logoColor=white" alt="View Live" />
+  </a>
 
 </div>
 
----
+<br />
 
-## 🚀 Overview
+## 🎯 Project Overview
+Welcome to **A3 Digital Hunters**! This project is a meticulously crafted frontend task built purely with semantic HTML5 and modern CSS3. It focuses heavily on best practices in layout, positioning, and cross-device compatibility.
 
-**A3 Digital Hunters** is a meticulously crafted, ultra-modern landing page designed to capture attention and deliver high-performance user experiences. Built with cutting-edge CSS features, it scales flawlessly across all devices and resolutions.
+### 🌟 Key Highlights
+- **Flawless Responsiveness:** Uses modern CSS Flexbox and Grid to ensure perfect scaling across all devices (Mobile, Tablet, Desktop).
+- **Pixel-Perfect Implementation:** Designed to match exact layout requirements with extreme precision.
+- **Lightning Fast:** Zero JavaScript bloat. 100% native browser performance.
+- **Clean Architecture:** Semantic HTML combined with structured, easily readable, and maintainable CSS.
 
-> [!NOTE]
-> This project avoids heavy JavaScript frameworks and CSS libraries. Instead, it relies purely on native browser features and modern CSS standards for maximum speed and SEO optimization.
-
----
-
-## 💎 Premium Features
-
-| ✨ Feature | 🔍 Description | 🛠 Technology |
-| :--- | :--- | :--- |
-| **Flawless Fluid Typography** | Text scales perfectly from 4K displays down to mobile screens without messy media queries. | `clamp()` |
-| **CSS Houdini Gradients** | Rich, animated, and complex gradient backgrounds that feel alive and dynamic. | `@property`, Custom Variables |
-| **Lightning-Fast Load Times** | Zero JS bloat. Assets are highly optimized for immediate rendering. | Native HTML/CSS |
-| **Semantic SEO Architecture** | Structured perfectly for web crawlers, ensuring maximum discoverability. | HTML5 Semantics |
-
----
-
-## 🎨 Design & Architecture
-
-We believe a digital agency's landing page should reflect their expertise. This project focuses on:
-
-> [!TIP]
-> **Aesthetics & Performance First:** The UI utilizes modern layout techniques and smooth aesthetic choices to deliver a truly premium and immersive browsing experience.
-
-* **Stability:** Complex layout logic completely resolves shrinking issues on critical tablet and mobile breakpoints.
-* **Modern CSS Best Practices:** The codebase is rigorously optimized and follows strict 2026 styling guidelines.
-
----
+<br />
 
 <div align="center">
-  <i>Built with passion for pixel-perfect precision and ultimate performance.</i> <br>
+  <i>Developed with passion for pixel-perfect precision.</i> <br>
   <b>Rishikesh Kumar © 2026</b>
 </div>

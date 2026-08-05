@@ -14,11 +14,11 @@
 I am a **2022-2026 batch student** and a passionate aspiring **Frontend, Backend, and Full-Stack Developer**. I love building clean, modern, and highly responsive web applications. I am actively looking for developer roles where I can contribute my skills, learn from experienced engineers, and grow professionally. 
 
 ### 💻 About This Project
-**A3 Digital Hunters** is one of my web development assignments. It showcases my ability to translate design requirements into a pixel-perfect, responsive frontend layout using pure **HTML5** and **CSS3** (Flexbox/Grid).
+**A3 Digital Hunters** is one of my core web development assignments. This project focuses on building a full-scale landing page using fluid typography (clamp), modern CSS gradients, and advanced positioning to create a cutting-edge digital agency experience.
 
 #### ✨ Key Learnings:
 * Building fluid and responsive layouts that look great on any device.
-* Utilizing modern CSS techniques (like clamp, Flexbox, and Grid) without relying on heavy frameworks.
+* Utilizing modern CSS techniques without relying on heavy frameworks.
 * Structuring HTML semantically for better accessibility and SEO.
 
 > **Note to HRs & Recruiters:** 

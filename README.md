@@ -1,16 +1,10 @@
 <div align="center">
 
-<br/><br/>
-
 <h1>🎮 Digital Hunters</h1>
 
 ### Cyberpunk Sci-Fi Game Studio Landing Page
 
-<br/>
-
 A visually stunning, cyberpunk-themed landing page featuring neon glow effects, custom SVG vector art, and native HTML5 Popover API — built with zero dependencies.
-
-<br/><br/>
 
 <p align="center">
   <a href="https://a3-digital-hunters.vercel.app"><img src="https://img.shields.io/badge/▶_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
@@ -18,19 +12,13 @@ A visually stunning, cyberpunk-themed landing page featuring neon glow effects, 
   <a href="https://github.com/Rishikesh-Kumar811/A3-Digital-Hunters/issues"><img src="https://img.shields.io/badge/Request_Feature-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
 </p>
 
-<br/>
-
 </div>
-
-<br/>
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js" alt="Tech Stack" />
 </p>
-
-<br/>
 
 <h2 align="center">✨ Features</h2>
 
@@ -42,13 +30,9 @@ A visually stunning, cyberpunk-themed landing page featuring neon glow effects, 
 | 📐 **Fluid CSS Grid & Flexbox** | Responsive scaling with `master-container` layout system |
 | 🔤 **Multi-Font Typography** | Oxanium, Electrolize & Onest from Google Fonts for a futuristic feel |
 
-<br/>
-
 <h2 align="center">🏗️ Architecture</h2>
 
 > Zero-dependency static landing page built with BEM-inspired CSS architecture and semantic HTML5 structure.
-
-<br/>
 
 <h2 align="center">🚀 Quick Start</h2>
 
@@ -60,11 +44,7 @@ git clone https://github.com/Rishikesh-Kumar811/A3-Digital-Hunters.git
 cd A3-Digital-Hunters && open index.html
 \`\`\`
 
-<br/>
-
 <div align="center">
-
-<br/>
 
 <h3>Built with ❤️ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></h3>
 

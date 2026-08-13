@@ -62,13 +62,7 @@ cd A3-Digital-Hunters && open index.html
 
 <br/>
 
-**[⬆ Back to Top](#digital-hunters)**
-
-<br/>
-
-<a href="https://github.com/Rishikesh-Kumar811/A3-Digital-Hunters/stargazers"><img src="https://img.shields.io/github/stars/Rishikesh-Kumar811/A3-Digital-Hunters?style=for-the-badge&color=f5a623&label=Star%20this%20Repo" alt="Stars" /></a>
-
-<sub>Built with ♥ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></sub>
+<h3>Built with ❤️ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></h3>
 
 </div>
 

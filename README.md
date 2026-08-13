@@ -24,7 +24,7 @@ A visually stunning, cyberpunk-themed landing page featuring neon glow effects, 
 
 <br/>
 
-<h3 align="center">🛠️ Tech Stack</h3>
+<h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js" alt="Tech Stack" />
@@ -44,13 +44,13 @@ A visually stunning, cyberpunk-themed landing page featuring neon glow effects, 
 
 <br/>
 
-<h3 align="center">🏗️ Architecture</h3>
+<h2 align="center">🏗️ Architecture</h2>
 
 > Zero-dependency static landing page built with BEM-inspired CSS architecture and semantic HTML5 structure.
 
 <br/>
 
-<h3 align="center">🚀 Quick Start</h3>
+<h2 align="center">🚀 Quick Start</h2>
 
 \`\`\`bash
 # Clone the repository

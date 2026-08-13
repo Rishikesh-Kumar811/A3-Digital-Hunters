@@ -1,9 +1,4 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/-Digital%20Hunters-4f46e5?style=for-the-badge" alt="Banner Badge" />
-  
-  <br />
-  <br />
-
   # 🌟 Digital Hunters
   **A modern, highly responsive landing page.** <br/>
   Built with fluid typography and cutting-edge CSS layouts. A showcase of modern web design.
@@ -11,9 +6,9 @@
   <br />
 
   <div align="center">
-    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /> &nbsp;
-    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /> &nbsp;
-    <img src="https://img.shields.io/badge/-JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" /> &nbsp;
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" /> &nbsp;
+    <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   </div>
   
 </div>
@@ -23,7 +18,7 @@
 ## 📸 Visuals & Live Demo
 *(Placeholder: Insert a beautiful screenshot or GIF of the UI here to demonstrate the application working in a production environment).*
 
-> **[View Live Demo](#) | [Report Bug](#) | [Request Feature](#)**
+> **[View Live Demo](https://a3-digital-hunters.vercel.app) | [Report Bug](https://github.com/Rishikesh-Kumar811/A3-Digital-Hunters/issues) | [Request Feature](https://github.com/Rishikesh-Kumar811/A3-Digital-Hunters/issues)**
 
 ---
 
@@ -64,5 +59,5 @@ npm run dev
 
 <div align="center">
   <i>Engineered with focus and precision.</i> <br/>
-  <img src="https://img.shields.io/badge/-Built_with_Love-ff69b4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Built_with-Love-ff69b4?style=flat" />
 </div>

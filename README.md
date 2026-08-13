@@ -2,7 +2,7 @@
 
 <br/>
 
-# 🎮 Digital Hunters
+<h1>🎮 Digital Hunters</h1>
 
 ### Cyberpunk Sci-Fi Game Studio Landing Page
 

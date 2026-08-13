@@ -34,11 +34,13 @@ A visually stunning, cyberpunk-themed landing page featuring neon glow effects, 
 
 <h2 align="center">✨ Features</h2>
 
-- 🎨 **Cyberpunk Sci-Fi Aesthetic** — Custom multi-stop SVG gradients, neon cyber-glow accents (`#00f3db`), and vector branding
-- 💬 **Native HTML Popover API** — Contact form triggered via `popovertarget` attribute without any JavaScript
-- 🖼️ **Optimized Asset Pipeline** — Modern `.avif` and `.webp` image formats for blazing-fast load times
-- 📐 **Fluid CSS Grid & Flexbox** — Responsive scaling with `master-container` layout system
-- 🔤 **Multi-Font Typography** — Oxanium, Electrolize & Onest from Google Fonts for a futuristic feel
+| 🎯 Core Feature | ✨ Technical Implementation |
+| :--- | :--- |
+| 🎨 **Cyberpunk Sci-Fi Aesthetic** | Custom multi-stop SVG gradients, neon cyber-glow accents (`#00f3db`), and vector branding |
+| 💬 **Native HTML Popover API** | Contact form triggered via `popovertarget` attribute without any JavaScript |
+| 🖼️ **Optimized Asset Pipeline** | Modern `.avif` and `.webp` image formats for blazing-fast load times |
+| 📐 **Fluid CSS Grid & Flexbox** | Responsive scaling with `master-container` layout system |
+| 🔤 **Multi-Font Typography** | Oxanium, Electrolize & Onest from Google Fonts for a futuristic feel |
 
 <br/>
 

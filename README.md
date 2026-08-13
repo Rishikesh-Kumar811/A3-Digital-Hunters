@@ -22,23 +22,11 @@ A visually stunning, cyberpunk-themed landing page featuring neon glow effects, 
 
 </div>
 
-<br/>
-
----
-
-<br/>
-
 ## 🛠️ Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js" alt="Tech Stack" />
 </p>
-
-<br/>
-
----
-
-<br/>
 
 ## ✨ Features
 
@@ -48,21 +36,9 @@ A visually stunning, cyberpunk-themed landing page featuring neon glow effects, 
 - 📐 **Fluid CSS Grid & Flexbox** — Responsive scaling with `master-container` layout system
 - 🔤 **Multi-Font Typography** — Oxanium, Electrolize & Onest from Google Fonts for a futuristic feel
 
-<br/>
-
----
-
-<br/>
-
 ## 🏗️ Architecture
 
 > Zero-dependency static landing page built with BEM-inspired CSS architecture and semantic HTML5 structure.
-
-<br/>
-
----
-
-<br/>
 
 ## 🚀 Quick Start
 
@@ -73,10 +49,6 @@ git clone https://github.com/Rishikesh-Kumar811/A3-Digital-Hunters.git
 # Open in browser
 cd A3-Digital-Hunters && open index.html
 \`\`\`
-
-<br/>
-
----
 
 <div align="center">
 

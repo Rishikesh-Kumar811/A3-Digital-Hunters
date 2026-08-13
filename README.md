@@ -2,7 +2,7 @@
 
 <br/>
 
-# Digital Hunters
+# 🎮 Digital Hunters
 
 ### Cyberpunk Sci-Fi Game Studio Landing Page
 
@@ -60,10 +60,10 @@ cd A3-Digital-Hunters && open index.html
 
 <div align="center">
 
-**[⬆ Back to Top](#digital-hunters)**
+**[⬆ Back to Top](#🎮-digital-hunters)**
 
 <br/>
 
-<img src="https://img.shields.io/badge/Built_with_%E2%99%A5-ff69b4?style=for-the-badge" alt="Built with Love" />
+<img src="https://badgen.net/badge/Built%20with%20%E2%99%A5//ff69b4?label&labelColor=ff69b4" alt="Built with Love" height="40" />
 
 </div>
